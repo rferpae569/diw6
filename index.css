@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 90vh;
+    background-color: aquamarine;
+    background-image: url("https://picsum.photos/200");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+footer {
+    height: 10vh;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100vw; 
+}
+
+footer img {
+    height: 75%;
+    width: auto;
+}
+main img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.div{
+    position: relative;
+    height: 100vh;
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    left: 45vw;
+    right:30vw ;
+    top: 30vh;
+}
+
+.superior{
+    position: fixed;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    background-image: url(img/paisaje1.jpg);
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.superior2{
+    position: fixed;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    background-image: url(img/paisaje2.jpg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    right: 0;
+}
+
+.tamaño{
+    width: 100px;
+    height: 100px;
+}
+
+.izquierda{
+    width: 100px;
+    height: 100px;
+    float: left;
+    z-index: 10;
+}
