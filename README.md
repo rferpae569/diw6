@@ -1,7 +1,8 @@
 # diw6
 
-##Ruben Fernandez Paez
+## Ruben Fernandez Paez
 
-##Ficheros que contiene el "proyecto"
+### Ficheros que contiene el *"proyecto"*
+
 - **index.html**
-- *style.css*
+- **style.css**
